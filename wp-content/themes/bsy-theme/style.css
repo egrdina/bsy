@@ -1,0 +1,234 @@
+/*
+ Theme Name:   bsy-theme
+ Theme URI:    http://example.com/bsy-theme/
+ Description:  bsy Theme
+ Author:       Emma Grdina
+ Author URI:   http://emmagrdina.com
+ Version:      1.0.0
+*/
+
+h1 {
+	font-family: 'Karla', sans-serif;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+  	font-size: 1em;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+ 	font-size: 1em; 
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700
+}
+
+ul {
+	list-style: none;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+}
+
+.menu-items a {
+	color: #FF4200;
+} 
+
+.logo {
+	margin: 40px;
+}
+
+.logo img {
+	height: auto;
+	width: auto;
+	max-height: 100px;
+	max-width: 146px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.sections {
+	width: 100%;
+	text-align: center;
+}
+
+.section {
+	padding: 12%;
+}
+
+.welcome {
+	background-color: #fff;
+	color: #E1251B;
+	border: 25px solid #FF4200;
+	padding: 20% 0;
+}
+
+.section .blurb {
+	font-family: 'Lora', serif;
+	font-size: 2em;
+	width: 100%;
+	max-width: 600px;
+	margin: 0em auto;
+}
+
+.how {
+	background-color: #1849E5;
+	color: white;
+	display: inline-block;
+	justify-content: center;
+}
+
+.how ul {
+	display: inline-block;
+	padding-left: 0;
+}
+
+#one {
+	float: left;
+	width: 30%;
+}
+
+#two {
+	width: 30%;
+}
+
+#three {
+	float: right;
+	width: 30%;
+}
+
+.audience {
+	background-color: #fff;
+	color: #E1251B;
+	border: 25px solid #FF4200;
+}
+
+.quote {
+	background-color: #FCE930;
+	color: #FF4200;
+	background-image: url('images/logo.png');
+	background-repeat: space;
+	background-size: 25px;
+}
+
+.all {
+	background: #fff;
+	padding: 8%;
+	border-radius: 4px;
+}
+
+.all h2 {
+	font-size: 2em;
+	float: left;
+	margin: 4px;
+}
+
+.goal {
+	background-color: #64EEE2;
+	color: #1849E5;
+}
+
+.join {
+	background: #C7002C;
+	color: #fff;
+}
+
+.survey {
+	padding: 6% 0;
+}
+
+.survey a {
+	background-color: #fff;
+	color: #C7002C;
+	border-radius: 4px;
+	padding: 3%;
+}
+
+i {
+	padding-left: 8px;
+}
+
+.footer {
+	background-color: #FF4200;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.footer ul {
+	display: inline-block;
+}
+
+#copyright {
+	float: left;
+}
+
+#contact {
+	float: right;
+	padding-right: 4%;
+}
+
+@media (max-width: 480px) {
+    h1 {
+    	font-size: 1.5em;
+    }
+
+    .section .blurb {
+    	font-size: 1.1em;
+    	line-height: 24px;
+    	width: 90%;
+    }
+
+    .welcome {
+	border: 10px solid #FF4200;
+	padding: 10% 0;    
+	}
+
+    .how ul {
+    	display: block;
+    }
+
+    #one {
+    	width: 100%;
+    }
+
+    #two {
+    	width: 100%;
+    }
+
+    #three {
+    	width: 100%;
+    }
+
+	.audience {
+	color: #E1251B;
+	border: 12px solid #FF4200;
+	}
+
+    .survey {
+    	padding: 9%;
+    } 
+
+    .survey a {
+    	padding: 5%;
+    }
+}
