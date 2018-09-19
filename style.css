@@ -37,10 +37,12 @@ ul {
 }
 
 nav {
-	display: flex;
-	align-items: center;
 	width: 100%;
 
+}
+
+.menu-items {
+	margin-top: 68px;
 }
 
 .menu-items a {
@@ -49,6 +51,9 @@ nav {
 
 .logo {
 	margin: 40px;
+	position: absolute;
+	top: 45px;
+	left: 40px;
 }
 
 .logo img {
@@ -60,10 +65,13 @@ nav {
 
 nav ul {
 	text-align: center;
+	padding-left: 0;
 }
 
 nav li {
 	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 .sections {
