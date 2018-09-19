@@ -1,31 +1,4 @@
- <!DOCTYPE html>
- <html <?php language_attributes("en-US"); ?>>
-
-	<head>
-		<title><?php wp_title( 'bsy' ); ?></title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-			<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" >
-			<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla|Lora">
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"'>
-	</head>
-
-<body> 
-
-<div class='sections'>
-	<div class='welcome'>
-		<header> 
-			<nav>
-				<div class='logo'><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/>
-				</div>
-				<div class='menu-items'><ul><?php wp_nav_menu( array(' menu' => 'Main nav')); ?></ul>
-				</div>
-			</nav>
-		</header>
-		<div class='section intro-blurb'>
-			<h1>welcome to bsy</h1>
-			<p class="blurb">bsy is a platform to help women become mentors and find mentors in like-minded, or not so like-minded, women.</p> 
-		</div>
-	</div>
+<?php get_header(); ?>
 
 	<div class='section audience'>
 		<h2>who it's for</h2>
@@ -64,13 +37,5 @@
 	<div class='instagram-feed'>
 	</div>
 
-</div>
-
-	<div class='footer'>
-		<ul id='copyright'><p>bsy © 2018</p></ul>
-		<ul id='slogan'><p>it's not business. it's bsy.</p></ul>
-		<ul id='contact'><p>contact us</p></ul>
-	</div>
-
-</body>
+<?php get_footer (); ?>
 </html> 
