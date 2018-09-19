@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
-<html lang="en">
+ <!DOCTYPE html>
+ <html <?php language_attributes("en-US"); ?>>
 
 	<head>
-		<title><?php bloginfo ( 'name' ); ?></title>
+		<title><?php wp_title( 'bsy' ); ?></title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 			<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" >
 			<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla|Lora">
@@ -68,7 +68,7 @@
 
 	<div class='footer'>
 		<ul id='copyright'><p>bsy © 2018</p></ul>
-		<ul><p>it's not business. it's bsy.</p></ul>
+		<ul id='slogan'><p>it's not business. it's bsy.</p></ul>
 		<ul id='contact'><p>contact us</p></ul>
 	</div>
 

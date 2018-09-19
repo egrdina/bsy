@@ -223,4 +223,28 @@ i {
     .survey a {
     	padding: 5%;
     }
+
+    .footer {
+    	padding: 5% 0;
+    }
+
+    .footer ul {
+		display: block;
+	}
+
+	#copyright {
+		padding: 0;
+		float: none;
+		width: 100%;
+	}
+
+	#slogan {
+		padding: 0;
+	}
+
+	#contact {
+		padding: 0;
+		float: none;
+		width: 100%;
+	}
 }
