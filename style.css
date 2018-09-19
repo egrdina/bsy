@@ -79,6 +79,9 @@ nav li {
 	background-color: #fff;
 	color: #E1251B;
 	border: 25px solid #FF4200;
+}
+
+.intro-blurb {
 	padding: 20% 0;
 }
 
@@ -190,8 +193,11 @@ i {
     }
 
     .welcome {
-		border: 10px solid #FF4200;
-		padding: 10% 0;    
+		border: 10px solid #FF4200;    
+	}
+
+	.intro-blurb {
+		padding: 20% 0;
 	}
 
     .how ul {
