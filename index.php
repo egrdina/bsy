@@ -56,11 +56,12 @@
 		<h2>join</h2>
 		<p class='blurb'>after you spend about 15 minutes telling us more about yourself, we will reach out about potentially pairing you with a mentor or mentee.</p> 
 		<div class='survey'>
-			<a href='http://emmagrdina.com/'>Let's get started<i class="fas fa-arrow-right"></i>
-
-</a>
+			<a href='http://emmagrdina.com/'>Let's get started<i class="fas fa-arrow-right"></i></a>
 		</div>
 	</div> 
+
+	<div class='instagram-feed'>
+	</div>
 
 </div>
 
