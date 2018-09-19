@@ -117,17 +117,8 @@ nav li {
 }
 
 .audience {
-	background-color: #fff;
-	color: #E1251B;
-	border: 25px solid #FF4200;
-}
-
-.quote {
 	background-color: #FCE930;
-	color: #FF4200;
-	background-image: url('images/logo.png');
-	background-repeat: space;
-	background-size: 25px;
+	color: #E1251B;
 }
 
 .all {
@@ -199,8 +190,8 @@ i {
     }
 
     .welcome {
-	border: 10px solid #FF4200;
-	padding: 10% 0;    
+		border: 10px solid #FF4200;
+		padding: 10% 0;    
 	}
 
     .how ul {
@@ -218,11 +209,6 @@ i {
     #three {
     	width: 100%;
     }
-
-	.audience {
-	color: #E1251B;
-	border: 12px solid #FF4200;
-	}
 
     .survey {
     	padding: 9%;
