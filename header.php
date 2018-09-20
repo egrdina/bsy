@@ -5,6 +5,10 @@
 	<meta http equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>;
 	charset=<?php bloginfo( 'charset' ); ?>">
     <?php wp_head(); ?>
+
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla|Lora">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"'>
 </head>
 
 <body <?php body_class( 'container' ); ?>>
@@ -20,8 +24,12 @@
 		</nav>
 </div>
 
-    <div class='section intro-blurb'>
-		<h1>welcome to bsy</h1>
-		<p class="blurb">bsy is a platform to help women become mentors and find mentors in like-minded, or not so like-minded, women.</p> 
-	</div>
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	    <div class='section intro-blurb'>
+			<h1><?php echo the_title() ?></h1>
+			<div class="blurb">
+				<?php echo the_content() ?>
+			</div>
+		</div>
+	<?php endwhile; endif; ?>
 </div>
