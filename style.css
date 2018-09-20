@@ -169,6 +169,17 @@ i {
 	padding-left: 8px;
 }
 
+.instagram-feed {
+	background: #FF8E67;
+	padding-bottom: 8%;
+}
+
+.instagram-feed h2 {
+	margin: 0;
+	color: #fff;
+	padding: 8% 0 2% 0;
+}
+
 .footer {
 	background-color: #FF4200;
 	color: #fff;

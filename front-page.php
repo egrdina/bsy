@@ -27,9 +27,6 @@
 		</div>
 	</div>
 
-	<div class='instagram'>
-	</div>
-
 	<div class='section join'>
 		<h2>join</h2>
 		<div class="blurb">
@@ -41,6 +38,7 @@
 	</div> 
 
 	<div class='instagram-feed'>
+		<h2>follow us on instagram</h2>
 		<?php echo do_shortcode('[instagram-feed]'); ?>
 	</div>
 
