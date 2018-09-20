@@ -259,8 +259,31 @@ i {
 }
 
 @media only screen
+and (min-width : 641px) 
+and (max-width : 1024px) {
+
+.wave img {
+		max-width: 300px;
+	}
+
+.pair img {
+	max-width: 200px;
+}
+
+.bsy-blue img {
+	max-width: 100px;
+}
+
+.bsy-orange img {
+	max-width: 100px;
+}
+
+}
+
+@media only screen
 and (min-width : 0px) 
-and (max-width : 768px) {
+and (max-width : 640px) {
+    
     h1 {
     	font-size: 1.5em;
     }
@@ -326,4 +349,7 @@ and (max-width : 768px) {
 		float: none;
 		width: 100%;
 	}
-}
+
+	.wave img {
+		max-width: 200px;
+	}
