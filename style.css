@@ -47,7 +47,12 @@ nav {
 
 .menu-items a {
 	color: #FF4200;
+	transition: .5s;
 } 
+
+.menu-items a:hover {
+	color: #1849E5;
+}
 
 .logo {
 	margin: 40px;
@@ -83,7 +88,14 @@ nav li {
 	padding: 12%;
 }
 
+.pair {
+	position: absolute;
+	left: 75%;
+	top: -1px;
+}
+
 .welcome {
+	position: relative;
 	background-color: #fff;
 	color: #E1251B;
 	border: 25px solid #FF4200;
@@ -93,12 +105,29 @@ nav li {
 	padding: 9% 0 20% 0;
 }
 
+.wave {
+	position: absolute;
+	bottom: -4px;
+}
+
 .section .blurb p {
 	font-family: 'Lora', serif;
 	font-size: 2em;
 	width: 100%;
 	max-width: 600px;
 	margin: 0em auto;
+}
+
+.audience {
+	position: relative;
+	background-color: #FCE930;
+	color: #E1251B;
+}
+
+.bsy-teal {
+	position: absolute;
+	left: 91%;
+	bottom: 10%;
 }
 
 .how {
@@ -127,11 +156,6 @@ nav li {
 	width: 30%;
 }
 
-.audience {
-	background-color: #FCE930;
-	color: #E1251B;
-}
-
 .all {
 	background: #fff;
 	padding: 8%;
@@ -145,11 +169,19 @@ nav li {
 }
 
 .goal {
+	position: relative;
 	background-color: #64EEE2;
 	color: #1849E5;
 }
 
+.bsy-blue {
+	position: absolute;
+	left: 0;
+	bottom: 11%;
+}
+
 .join {
+	position: relative;
 	background: #C7002C;
 	color: #fff;
 }
@@ -163,10 +195,22 @@ nav li {
 	color: #C7002C;
 	border-radius: 4px;
 	padding: 3%;
+	transition: .2s ease;
+}
+
+.survey a:hover {
+	background-color: #FF4200;
+	color: #fff;
 }
 
 i {
 	padding-left: 8px;
+}
+
+.bsy-orange {
+	position: absolute;
+	left: 82%;
+	bottom: 12%;
 }
 
 .instagram-feed {
@@ -176,8 +220,16 @@ i {
 
 .instagram-feed h2 {
 	margin: 0;
+	padding: 8% 0 3% 0;
+}
+
+.instagram-feed a {
 	color: #fff;
-	padding: 8% 0 2% 0;
+	transition: .5s ease;
+}
+
+.instagram-feed a:hover {
+	color: #FF4200;
 }
 
 .footer {

@@ -15,6 +15,9 @@
 
 <div class='sections'>
 <div class='welcome'>
+	<div class='pair'>
+		<img src="<?php echo get_bloginfo('template_url') ?>/images/pair.png"/>
+	</div>
 	<div class="top-nav">
     	<nav>
 			<div class='logo'><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/>
@@ -30,6 +33,11 @@
 			<div class="blurb">
 				<?php echo the_content() ?>
 			</div>
+			<div class='wave'>
+				<img src="<?php echo get_bloginfo('template_url') ?>/images/wave.png"/>
+			</div>
 		</div>
 	<?php endwhile; endif; ?>
+
+
 </div>

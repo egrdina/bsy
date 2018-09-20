@@ -3,8 +3,12 @@
 	<div id="audience" class='section audience'>
 		<h2>who it's for</h2>
 		<div class="blurb">
-			<p>bsy is for women looking for incredible mentors or those looking to find another. it’s also for those of us looking to pay it forward and become incredible mentors to other women.</p> 
+			<p>bsy is for women looking for incredible mentors or those looking to find another. it’s also for those of us looking to pay it forward and become incredible mentors to other women.</p>
+			<div class='bsy-teal'>
+				<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-teal.png"/>
+			</div> 
 		</div>
+		
 	</div>
 
 	<div id="how-it-works" class='section how' >
@@ -25,9 +29,12 @@
 		<div class="blurb">
 			<p>we hope it becomes a friendship where you discuss work, life, love, or all of the above. whatever you’re looking to get out of it, bsy will help you build a personal relationship through an individualized matching process.</p> 
 		</div>
+		<div class='bsy-blue'>
+			<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-blue.png"/>
+		</div>
 	</div>
 
-	<div class='section join'>
+	<div id="join" class='section join'>
 		<h2>join</h2>
 		<div class="blurb">
 			<p>after you spend about 15 minutes telling us more about yourself, we will reach out about potentially pairing you with a mentor or mentee.</p> 
@@ -35,10 +42,13 @@
 		<div class='survey'>
 			<a href='http://emmagrdina.com/'>Let's get started<i class="fas fa-arrow-right"></i></a>
 		</div>
+		<div class='bsy-orange'>
+			<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-orange.png"/>
+		</div>
 	</div> 
 
 	<div class='instagram-feed'>
-		<h2>follow us on instagram</h2>
+		<h2><a href="https://www.instagram.com/emmagrdina/">follow us on instagram<i class="fas fa-arrow-right"></i></a></h2>
 		<?php echo do_shortcode('[instagram-feed]'); ?>
 	</div>
 
