@@ -55,10 +55,9 @@ nav {
 }
 
 .logo {
-	margin: 40px;
 	position: absolute;
-	top: 45px;
-	left: 40px;
+	top: 24px;
+	left: 50px;
 }
 
 .logo img {
@@ -90,13 +89,13 @@ nav li {
 
 .pair {
 	position: absolute;
-	left: 75%;
+	right: 3%;
 	top: -1px;
+	z-index: -1;
 }
 
 .welcome {
 	position: relative;
-	background-color: #fff;
 	color: #E1251B;
 	border: 25px solid #FF4200;
 }
@@ -122,12 +121,14 @@ nav li {
 	position: relative;
 	background-color: #FCE930;
 	color: #E1251B;
+	z-index: 0;
 }
 
 .bsy-teal {
 	position: absolute;
-	left: 91%;
+	right: 0px;
 	bottom: 10%;
+	z-index: -1;
 }
 
 .how {
@@ -209,7 +210,7 @@ i {
 
 .bsy-orange {
 	position: absolute;
-	left: 82%;
+	right: 0;
 	bottom: 12%;
 }
 
