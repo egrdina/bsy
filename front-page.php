@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
-	<div class='section audience'>
+	<div id="audience" class='section audience'>
 		<h2>who it's for</h2>
 		<div class="blurb">
 			<p>bsy is for women looking for incredible mentors or those looking to find another. it’s also for those of us looking to pay it forward and become incredible mentors to other women.</p> 
 		</div>
 	</div>
 
-	<div class='section how'>
+	<div id="how-it-works" class='section how' >
 		<h2>how it works</h2>
 		<ul id='one'><i class="fas fa-paper-plane"></i><h2>tell us a bit more about you</h2> 
 			<p>our 15-min. survey about your goals and where you are in life will help us match you with a potential mentor/mentee.</p>
@@ -20,7 +20,7 @@
 		</ul>
 	</div>
 
-	<div class='section goal'>
+	<div id="goal" class='section goal'>
 		<h2>our goal</h2>
 		<div class="blurb">
 			<p>we hope it becomes a friendship where you discuss work, life, love, or all of the above. whatever you’re looking to get out of it, bsy will help you build a personal relationship through an individualized matching process.</p> 
