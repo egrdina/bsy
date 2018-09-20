@@ -154,12 +154,14 @@ nav li {
 	position: relative;
 	background-color: #64EEE2;
 	color: #1849E5;
+	z-index: 0;
 }
 
 .join {
 	position: relative;
 	background: #C7002C;
 	color: #fff;
+	z-index: 0;
 }
 
 .survey {
@@ -289,6 +291,7 @@ and (max-width : 1024px) {
 	position: absolute;
 	left: 0;
 	bottom: 11%;
+	z-index: -1;
 }
 
 .bsy-orange {
@@ -300,6 +303,7 @@ and (max-width : 1024px) {
 	position: absolute;
 	right: 0;
 	bottom: 12%;
+	z-index: -1;
 }
 
 }
@@ -409,6 +413,7 @@ and (max-width : 640px) {
 		max-width: 50px;
 		left: 0;
 		bottom: 11%;
+		z-index: -1;
 	}
 
 	.bsy-blue-mobile img {
@@ -424,6 +429,7 @@ and (max-width : 640px) {
 		position: absolute;
 		right: 0;
 		bottom: 12%;
+		z-index: -1;
 	}
 
 	.bsy-orange-mobile img {
