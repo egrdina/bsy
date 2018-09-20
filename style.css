@@ -252,12 +252,20 @@ i {
 	padding-right: 4%;
 }
 
-@media (max-width: 480px) {
+.form {
+	background-color: #fff;
+	border: 25px solid #FCE930;
+	padding-top: 6%;
+}
+
+@media only screen
+and (min-width : 0px) 
+and (max-width : 768px) {
     h1 {
     	font-size: 1.5em;
     }
 
-    .section .blurb {
+    .section .blurb p {
     	font-size: 1.1em;
     	line-height: 24px;
     	width: 90%;

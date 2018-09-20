@@ -20,7 +20,7 @@
 	</div>
 	<div class="top-nav">
     	<nav>
-			<div class='logo'><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/>
+			<div class='logo'><a href="www.emmagrdina.com"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/></a>
 			</div>
 			<div class='menu-items'><ul><?php wp_nav_menu( array(' menu' => 'Main nav')); ?></ul>
 			</div>
