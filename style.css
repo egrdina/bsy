@@ -87,13 +87,6 @@ nav li {
 	padding: 12%;
 }
 
-.pair {
-	position: absolute;
-	right: 3%;
-	top: -1px;
-	z-index: -1;
-}
-
 .welcome {
 	position: relative;
 	color: #E1251B;
@@ -102,11 +95,6 @@ nav li {
 
 .intro-blurb {
 	padding: 9% 0 20% 0;
-}
-
-.wave {
-	position: absolute;
-	bottom: -4px;
 }
 
 .section .blurb p {
@@ -122,13 +110,6 @@ nav li {
 	background-color: #FCE930;
 	color: #E1251B;
 	z-index: 0;
-}
-
-.bsy-teal {
-	position: absolute;
-	right: 0px;
-	bottom: 10%;
-	z-index: -1;
 }
 
 .how {
@@ -175,12 +156,6 @@ nav li {
 	color: #1849E5;
 }
 
-.bsy-blue {
-	position: absolute;
-	left: 0;
-	bottom: 11%;
-}
-
 .join {
 	position: relative;
 	background: #C7002C;
@@ -206,12 +181,6 @@ nav li {
 
 i {
 	padding-left: 8px;
-}
-
-.bsy-orange {
-	position: absolute;
-	right: 0;
-	bottom: 12%;
 }
 
 .instagram-feed {
@@ -259,6 +228,46 @@ i {
 	padding-top: 6%;
 }
 
+.pair {
+	position: absolute;
+	right: 3%;
+	top: -1px;
+	z-index: -1;
+}
+
+.wave {
+	position: absolute;
+	bottom: -4px;
+	z-index: -1;
+}
+
+.bsy-teal {
+	position: absolute;
+	right: 0px;
+	bottom: 10%;
+	z-index: -1;
+}
+
+.bsy-blue {
+	position: absolute;
+	left: 0;
+	bottom: 11%;
+}
+
+.bsy-blue-mobile {
+	display: none;
+}
+
+.bsy-orange {
+	position: absolute;
+	right: 0;
+	bottom: 12%;
+}
+
+.bsy-orange-mobile {
+	display: none;
+}
+
 @media only screen
 and (min-width : 641px) 
 and (max-width : 1024px) {
@@ -271,12 +280,26 @@ and (max-width : 1024px) {
 	max-width: 200px;
 }
 
-.bsy-blue img {
-	max-width: 100px;
+.bsy-blue {
+	display: none;
 }
 
-.bsy-orange img {
-	max-width: 100px;
+.bsy-blue-mobile {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 11%;
+}
+
+.bsy-orange {
+	display: none;
+}
+
+.bsy-orange-mobile {
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 12%;
 }
 
 }
@@ -287,6 +310,19 @@ and (max-width : 640px) {
     
     h1 {
     	font-size: 1.5em;
+    }
+
+    .logo {
+    	top: 16px;
+    	left: 34px;
+    }
+
+    .logo img {
+    	max-height: 70px;
+    }
+
+    .menu-items {
+    	display: none;
     }
 
     .section .blurb p {
@@ -351,6 +387,47 @@ and (max-width : 640px) {
 		width: 100%;
 	}
 
+	.pair img {
+		max-width: 160px;
+	}
+
 	.wave img {
 		max-width: 200px;
 	}
+
+	.bsy-teal img {
+		max-width: 50px;
+	}
+
+	.bsy-blue {
+		display: none;
+	}
+
+	.bsy-blue-mobile {
+		display: block;
+		position: absolute;
+		max-width: 50px;
+		left: 0;
+		bottom: 11%;
+	}
+
+	.bsy-blue-mobile img {
+		max-width: 50px;
+	}
+
+	.bsy-orange {
+		display: none;
+	}
+
+	.bsy-orange-mobile {
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: 12%;
+	}
+
+	.bsy-orange-mobile img {
+		max-width: 50px;
+	}
+
+

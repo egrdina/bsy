@@ -32,6 +32,9 @@
 		<div class='bsy-blue'>
 			<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-blue.png"/>
 		</div>
+		<div class='bsy-blue-mobile'>
+			<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-blue-mobile.png"/>
+		</div>
 	</div>
 
 	<div id="join" class='section join'>
@@ -44,6 +47,9 @@
 		</div>
 		<div class='bsy-orange'>
 			<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-orange.png"/>
+		</div>
+		<div class='bsy-orange-mobile'>
+			<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-orange-mobile.png"/>
 		</div>
 	</div> 
 
