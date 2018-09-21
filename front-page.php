@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div id="audience" class='section audience'>
-		<h2>who it's for</h2>
+		<h2><?php echo get_theme_mod('audience_label', ''); ?></h2>
 		<div class="blurb">
 			<p>bsy is for women looking for incredible mentors or those looking to find another. it’s also for those of us looking to pay it forward and become incredible mentors to other women.</p>
 			<div class='bsy-teal'>
