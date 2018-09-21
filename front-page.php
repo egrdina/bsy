@@ -17,7 +17,7 @@
 			<p><?php echo get_theme_mod('item1_description', 'our 15-min. survey about your goals and where you are in life will help us match you with a potential mentor/mentee.'); ?></p>
 		</ul>
 		<ul id='two'><i class="fas fa-link"></i><h2><?php echo get_theme_mod('item2_label', 'we will match you with a mentor/mentee.'); ?></h2>
-			<p><?php echo get_theme_mod('item1_description', 'bsy will help you build a personal relationship through an individualized matching process.'); ?></p>
+			<p><?php echo get_theme_mod('item2_description', 'bsy will help you build a personal relationship through an individualized matching process.'); ?></p>
 		</ul>
 		<ul id='three'><i class="fas fa-star"></i><h2><?php echo get_theme_mod('item3_label', 'the relationship is what you make it.'); ?></h2>
 			<p> <?php echo get_theme_mod('item3_description', 'there’s no one size fits all when it comes to mentoring. while we do check in with partnerships, we trust mentors and mentees to build the relationship they want.'); ?></p>
