@@ -47,7 +47,7 @@ nav {
 
 .menu-items a {
 	color: #FF4200;
-	transition: .5s;
+	transition: .5s ease;
 } 
 
 .menu-items a:hover {
@@ -222,6 +222,15 @@ i {
 #contact {
 	float: right;
 	padding-right: 4%;
+}
+
+#contact a {
+	color: #fff;
+}
+
+#contact a:hover {
+	color: #FCE930;
+	transition: .2s ease;
 }
 
 .form {
