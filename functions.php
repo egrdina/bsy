@@ -186,6 +186,7 @@ function bsy_customize_register($wp_customize) {
         'type'           => 'theme_mod',
         'capability'     => 'edit_theme_options',
     ));
+
     $wp_customize->add_control('join_description', array(
         'label'      => __('Join description', 'bsy'),
         'section'    => 'bsy_home',

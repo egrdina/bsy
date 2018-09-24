@@ -40,7 +40,7 @@
 	<div id="join" class='section join'>
 		<h2><?php echo get_theme_mod('join_label', 'join'); ?></h2>
 		<div class="blurb">
-			<p><?php echo get_theme_mod('join_description', 'after you spend about 15 minutes telling us more about yourself, we will reach out about potentially pairing you with a mentor or mentee.'); ?> </p> 
+			<p><?php echo get_theme_mod('join_description', 'after you spend about 15 minutes telling us more about yourself, we will reach out about potentially pairing you with a mentor or mentee.'); ?></p> 
 		</div>
 		<div class='survey'>
 			<a href='http://imbsy.com/form/'>Let's get started<i class="fas fa-arrow-right"></i></a>
@@ -54,7 +54,7 @@
 	</div> 
 
 	<div class='instagram-feed'>
-		<h2><a href="https://www.instagram.com/emmagrdina/">follow us on instagram<i class="fas fa-arrow-right"></i></a></h2>
+		<h2>follow us on instagram</h2>
 		<?php echo do_shortcode('[instagram-feed]'); ?>
 	</div>
 
