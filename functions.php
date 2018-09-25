@@ -217,6 +217,18 @@ function bsy_customize_register($wp_customize) {
         'type'       => 'text',
     ));
 
+    $wp_customize->add_setting('contact_description', array(
+    'default'        => '',
+    'type'           => 'theme_mod',
+    'capability'     => 'edit_theme_options',
+    ));
+
+    $wp_customize->add_control('contact_description', array(
+        'label'      => __('Contact email', 'bsy'),
+        'section'    => 'bsy_home',
+        'type'       => 'text',
+    ));
+
 }
 
     add_action('customize_register', 'bsy_customize_register');
