@@ -236,13 +236,23 @@ function bsy_customize_register($wp_customize) {
     function my_password_form() {
     global $post;
     $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
-    $o = '<form action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">
-    ' . __( "To answer our survey, enter the password below:" ) . '
-    <label for="' . $label . '">' . __( "Password:" ) . ' </label><input name="post_password" id="' . $label . '" type="password" size="20" maxlength="20" /><input type="submit" name="Submit" value="' . esc_attr__( "Submit" ) . '" />
+    $o = '<form class="password-form" action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">
+    ' . '<p>' . __( "To answer our survey, enter the password below:" ) . '</p>' . '<input class="password-input" name="post_password" id="' . $label . '" type="password" placeholder="password" /><input class="password-button" type="submit" name="Submit" value="' . esc_attr__( "Submit" ) . '" />
     </form>
     ';
     return $o;
 }
 
     add_filter( 'the_password_form', 'my_password_form' );
+
+    function the_title_trim($title)
+  {
+   $pattern[0] = '/Protected:/';
+    $pattern[1] = '/Private:/';
+    $replacement[0] = ''; // Enter some text to put in place of Protected:
+    $replacement[1] = ''; // Enter some text to put in place of Private:
+
+    return preg_replace($pattern, $replacement, $title);
+  }
+  add_filter('the_title', 'the_title_trim');
 

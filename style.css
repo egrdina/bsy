@@ -185,6 +185,36 @@ i {
 	padding-left: 8px;
 }
 
+.password-input {
+	font-family: karla, sans-serif;
+	margin-top: 20px;
+    padding: 15px 12px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    margin-right: 6px;
+    font-size: 0.5em;
+    width: 120px;
+}
+
+.password-button {
+	font-family: karla, sans-serif;
+	font-size: 0.5em;
+    padding: 15px 18px;
+    background: none;
+    border: none;
+    border-radius: 4px;
+    background: #FF4200;
+    color: white;
+    cursor: pointer;
+}
+
+.password-button:hover {
+	background-color: #FF8E67;
+	transition: .2s ease;
+}
+
 .instagram-feed {
 	background: #FF8E67;
 	padding-bottom: 8%;
