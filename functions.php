@@ -193,6 +193,29 @@ function bsy_customize_register($wp_customize) {
         'type'       => 'textarea',
     ));
 
+    $wp_customize->add_setting('follow_label', array(
+        'default'        => '',
+        'type'           => 'theme_mod',
+        'capability'     => 'edit_theme_options',
+    ));
+
+    $wp_customize->add_control('follow_label', array(
+        'label'      => __('Follow label', 'bsy'),
+        'section'    => 'bsy_home',
+        'type'       => 'text',
+    ));
+
+    $wp_customize->add_setting('follow_description', array(
+        'default'        => '',
+        'type'           => 'theme_mod',
+        'capability'     => 'edit_theme_options',
+    ));
+
+    $wp_customize->add_control('follow_description', array(
+        'label'      => __('Follow URL', 'bsy'),
+        'section'    => 'bsy_home',
+        'type'       => 'text',
+    ));
 
 }
 

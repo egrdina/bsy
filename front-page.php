@@ -54,7 +54,7 @@
 	</div> 
 
 	<div class='instagram-feed'>
-		<h2>follow us on instagram</h2>
+		<h2><a href="<?php echo get_theme_mod('follow_description', 'https://www.instagram.com/livkirby/'); ?>"><?php echo get_theme_mod('follow_label', 'follow us on instagram'); ?><i class="fas fa-arrow-right"></i></a></h2>
 		<?php echo do_shortcode('[instagram-feed]'); ?>
 	</div>
 
