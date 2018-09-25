@@ -54,6 +54,7 @@ function bsy_customize_register($wp_customize) {
         'type'           => 'theme_mod',
         'capability'     => 'edit_theme_options',
     ));
+
     $wp_customize->add_control('audience_description', array(
         'label'      => __('Audience description', 'bsy'),
         'section'    => 'bsy_home',
@@ -72,7 +73,7 @@ function bsy_customize_register($wp_customize) {
         'type'       => 'text',
     ));
 
-  $wp_customize->add_setting('item1_label', array(
+    $wp_customize->add_setting('item1_label', array(
         'default'        => '',
         'type'           => 'theme_mod',
         'capability'     => 'edit_theme_options',
@@ -96,7 +97,7 @@ function bsy_customize_register($wp_customize) {
         'type'       => 'textarea',
     ));
 
-  $wp_customize->add_setting('item2_label', array(
+    $wp_customize->add_setting('item2_label', array(
         'default'        => '',
         'type'           => 'theme_mod',
         'capability'     => 'edit_theme_options',
@@ -143,7 +144,6 @@ function bsy_customize_register($wp_customize) {
         'section'    => 'bsy_home',
         'type'       => 'textarea',
     ));
-
 
     $wp_customize->add_setting('goal_label', array(
         'default'        => '',
@@ -195,4 +195,19 @@ function bsy_customize_register($wp_customize) {
 
 
 }
-add_action('customize_register', 'bsy_customize_register');
+
+    add_action('customize_register', 'bsy_customize_register');
+
+    function my_password_form() {
+    global $post;
+    $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
+    $o = '<form action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">
+    ' . __( "To answer our survey, enter the password below:" ) . '
+    <label for="' . $label . '">' . __( "Password:" ) . ' </label><input name="post_password" id="' . $label . '" type="password" size="20" maxlength="20" /><input type="submit" name="Submit" value="' . esc_attr__( "Submit" ) . '" />
+    </form>
+    ';
+    return $o;
+}
+
+    add_filter( 'the_password_form', 'my_password_form' );
+

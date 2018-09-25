@@ -20,7 +20,7 @@
 	</div>
 	<div class="top-nav">
     	<nav>
-			<div class='logo'><a href="http://www.imbsy.com/"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/></a>
+			<div class='logo'><a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/></a>
 			</div>
 			<div class='menu-items'><ul><?php wp_nav_menu( array(' menu' => 'Main nav')); ?></ul>
 			</div>

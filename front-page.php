@@ -43,7 +43,7 @@
 			<p><?php echo get_theme_mod('join_description', 'after you spend about 15 minutes telling us more about yourself, we will reach out about potentially pairing you with a mentor or mentee.'); ?></p> 
 		</div>
 		<div class='survey'>
-			<a href='http://imbsy.com/form/'>Let's get started<i class="fas fa-arrow-right"></i></a>
+			<a href='<?php echo get_home_url(''); ?>/form/'>Let's get started<i class="fas fa-arrow-right"></i></a>
 		</div>
 		<div class='bsy-orange'>
 			<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-orange.png"/>
