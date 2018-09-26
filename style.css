@@ -150,7 +150,7 @@ nav li {
 	margin: 4px;
 }
 
-.goal {
+.why-bsy {
 	position: relative;
 	background-color: #64EEE2;
 	color: #1849E5;
@@ -171,7 +171,6 @@ nav li {
 .survey a {
 	background-color: #fff;
 	color: #C7002C;
-	border-radius: 4px;
 	padding: 3%;
 	transition: .2s ease;
 }
@@ -280,7 +279,7 @@ i {
 
 .wave {
 	position: absolute;
-	bottom: -4px;
+	bottom: -5px;
 	z-index: -1;
 }
 

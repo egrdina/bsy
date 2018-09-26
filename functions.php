@@ -145,25 +145,25 @@ function bsy_customize_register($wp_customize) {
         'type'       => 'textarea',
     ));
 
-    $wp_customize->add_setting('goal_label', array(
+    $wp_customize->add_setting('why_bsy_label', array(
         'default'        => '',
         'type'           => 'theme_mod',
         'capability'     => 'edit_theme_options',
     ));
 
-    $wp_customize->add_control('goal_label', array(
-        'label'      => __('Goal label', 'bsy'),
+    $wp_customize->add_control('why_bsy_label', array(
+        'label'      => __('Why bsy label', 'bsy'),
         'section'    => 'bsy_home',
         'type'       => 'text',
     ));
 
-    $wp_customize->add_setting('goal_description', array(
+    $wp_customize->add_setting('why_bsy_description', array(
         'default'        => '',
         'type'           => 'theme_mod',
         'capability'     => 'edit_theme_options',
     ));
-    $wp_customize->add_control('goal_description', array(
-        'label'      => __('Goal description', 'bsy'),
+    $wp_customize->add_control('why_bsy_description', array(
+        'label'      => __('Why bsy description', 'bsy'),
         'section'    => 'bsy_home',
         'type'       => 'textarea',
     ));
