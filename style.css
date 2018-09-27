@@ -175,7 +175,7 @@ nav li {
 }
 
 .survey a {
-	background-color: #fff;
+	background-color: #FCE930;
 	color: #C7002C;
 	padding: 3%;
 	transition: .2s ease;
@@ -394,6 +394,10 @@ and (max-width : 640px) {
     	font-size: 1.5em;
     }
 
+    h2 {
+    	font-size: .8em;
+    }
+
     .logo {
     	top: 16px;
     	left: 34px;
@@ -407,9 +411,13 @@ and (max-width : 640px) {
     	display: none;
     }
 
+    .section {
+    	padding: 10%;
+    }
+
     .section .blurb p {
-    	font-size: 1.1em;
-    	line-height: 24px;
+    	font-size: 1em;
+    	line-height: 21px;
     	width: 90%;
     }
 
@@ -438,11 +446,11 @@ and (max-width : 640px) {
     }
 
     .survey {
-    	padding: 9%;
+    	margin: 9%;
     } 
 
     .survey a {
-    	padding: 5%;
+    	padding: 7%;
     }
 
     .footer {
