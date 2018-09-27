@@ -67,6 +67,12 @@ nav {
 	max-width: 146px;
 }
 
+.title-logo {
+	width: 49px;
+	position: relative;
+	top: 18px;
+}
+
 nav ul {
 	text-align: center;
 	padding-left: 0;
