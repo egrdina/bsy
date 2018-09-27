@@ -231,6 +231,12 @@ function bsy_customize_register($wp_customize) {
 
 }
 
+    function wpdocs_bsy_scripts() {
+        wp_enqueue_style( 'bsy-style', get_stylesheet_uri() );
+    }
+    add_action( 'wp_enqueue_scripts', 'wpdocs_bsy_scripts' );
+    
+
     add_action('customize_register', 'bsy_customize_register');
 
     function my_password_form() {
