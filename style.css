@@ -391,7 +391,7 @@ and (min-width : 0px)
 and (max-width : 640px) {
     
     h1 {
-    	font-size: 1.5em;
+    	font-size: 1.3em;
     }
 
     h2 {
@@ -405,6 +405,12 @@ and (max-width : 640px) {
 
     .logo img {
     	max-height: 70px;
+    }
+
+    .title-logo {
+    	width: 38px;
+    	position: relative;
+    	top: 14px;
     }
 
     .menu-items {
