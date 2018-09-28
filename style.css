@@ -91,6 +91,7 @@ nav li {
 
 .section {
 	padding: 12%;
+	position: relative;
 }
 
 .welcome {
@@ -116,6 +117,7 @@ nav li {
 	background-color: #FCE930;
 	color: #E1251B;
 	z-index: 0;
+	border: 25px solid #FF8E67;
 }
 
 .how {
@@ -123,6 +125,7 @@ nav li {
 	color: white;
 	display: inline-block;
 	justify-content: center;
+	border: 25px solid #64EEE2;
 }
 
 .how ul {
@@ -161,6 +164,7 @@ nav li {
 	background-color: #64EEE2;
 	color: #1849E5;
 	z-index: 0;
+	border: 25px solid #FF4200;
 }
 
 .join {
@@ -168,6 +172,7 @@ nav li {
 	background: #C7002C;
 	color: #fff;
 	z-index: 0;
+	border: 25px solid #E1251B;
 }
 
 .survey {
@@ -224,6 +229,8 @@ i {
 .instagram-feed {
 	background: #FF8E67;
 	padding-bottom: 8%;
+	position: relative;
+	border: 25px solid #FCE930;
 }
 
 .instagram-feed h2 {

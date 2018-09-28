@@ -8,7 +8,6 @@
 				<img src="<?php echo get_bloginfo('template_url') ?>/images/bsy-teal.png"/>
 			</div> 
 		</div>
-		
 	</div>
 
 	<div id="how-it-works" class='section how' >
@@ -42,6 +41,7 @@
 		<div class="blurb">
 			<p><?php echo get_theme_mod('join_description', 'after you spend about 15 minutes telling us more about yourself, we will reach out about potentially pairing you with a mentor or mentee.'); ?></p> 
 		</div>
+
 		<div class='survey'>
 			<a href='<?php echo get_home_url(''); ?>/form/'>Let's get started<i class="fas fa-arrow-right"></i></a>
 		</div>
