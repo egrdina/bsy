@@ -172,7 +172,7 @@ nav li {
 	background: #C7002C;
 	color: #fff;
 	z-index: 0;
-	border: 25px solid #E1251B;
+	border: 25px solid #FCE930;
 }
 
 .survey {
@@ -230,7 +230,7 @@ i {
 	background: #FF8E67;
 	padding-bottom: 8%;
 	position: relative;
-	border: 25px solid #FCE930;
+	border: 25px solid #E1251B;
 }
 
 .instagram-feed h2 {
@@ -442,6 +442,14 @@ and (max-width : 640px) {
 		padding: 20% 0;
 	}
 
+	.audience {
+		border: 10px solid #FF8E67;
+	}
+
+	.how {
+		border: 10px solid #64EEE2;
+	}
+
     .how ul {
     	display: block;
     }
@@ -458,12 +466,24 @@ and (max-width : 640px) {
     	width: 100%;
     }
 
+    .why-bsy {
+    	border: 10px solid #FF4200;
+    }
+
+    .join {
+    	border: 10px solid #FCE930;
+    }
+
     .survey {
     	margin: 9%;
     } 
 
     .survey a {
     	padding: 7%;
+    }
+
+    .instagram-feed {
+    	border: 10px solid #E1251B;
     }
 
     .footer {
