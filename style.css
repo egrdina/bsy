@@ -4,7 +4,7 @@
  Description:  bsy Theme
  Author:       Emma Grdina
  Author URI:   http://emmagrdina.com
- Version:      1.4.0
+ Version:      1.5.0
 */
 
 h1 {
@@ -425,7 +425,7 @@ and (max-width : 640px) {
     }
 
     .section {
-    	padding: 10%;
+    	padding: 20% 6% 30% 6%;
     }
 
     .section .blurb p {
@@ -439,7 +439,7 @@ and (max-width : 640px) {
 	}
 
 	.intro-blurb {
-		padding: 20% 0;
+		padding: 40% 0;
 	}
 
 	.audience {
@@ -484,6 +484,7 @@ and (max-width : 640px) {
 
     .instagram-feed {
     	border: 10px solid #E1251B;
+    	padding-top: 8%;
     }
 
     .footer {
@@ -515,7 +516,7 @@ and (max-width : 640px) {
 	}
 
 	.wave img {
-		max-width: 200px;
+		max-width: 250px;
 	}
 
 	.bsy-teal img {
