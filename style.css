@@ -382,35 +382,6 @@ form.forminator-custom-form.forminator-design--default .forminator-label--limit 
 .forminator-custom-form .forminator-label--success>span {
     padding-left: 0 !important;
 }
-@media only screen and (max-width: 640px) and (min-width: 0px) {
-.form h2 {
-        font-size: 22px;
-}
-form.forminator-design--default .forminator-label,
-form.forminator-design--default .forminator-label--limit,
-form.forminator-design--default .forminator-label--helper,
-form.forminator-design--default .forminator-label--validation {
-	font-size: 15px !important;
-}
-form.forminator-custom-form.forminator-design--default .forminator-label,
-form.forminator-custom-form.forminator-design--default .forminator-label--helper,
-form.forminator-custom-form.forminator-design--default .forminator-label--limit {
-	line-height: 18px;
-}
-.forminator-custom-form.forminator-design--default .forminator-input {
-	height: 40px !important;
-}
-.forminator-custom-form .forminator-label--error,
-.forminator-custom-form .forminator-label--error p,
-.forminator-custom-form .forminator-label--notice,
-.forminator-custom-form .forminator-label--notice p,
-.forminator-custom-form .forminator-label--success,
-.forminator-custom-form .forminator-label--success p {
-	font-size: 15px !important;
-	line-height: 18px !important;
-}
-
-}
 
 .pair {
 	position: absolute;
@@ -684,5 +655,55 @@ and (max-width : 640px) {
 	.bsy-orange-mobile img {
 		max-width: 50px;
 	}
+
+	.password-input {
+		font-size: 0.8em; 
+	}
+
+	.password-button {
+		font-size: 0.8em;
+	}
+
+	.form {
+		border: 10px solid #FCE930;
+	}
+
+	.form h2 {
+	    font-size: 22px;
+	}
+
+	form.forminator-design--default .forminator-label,
+	form.forminator-design--default .forminator-label--limit,
+	form.forminator-design--default .forminator-label--helper,
+	form.forminator-design--default .forminator-label--validation {
+		font-size: 15px !important;
+	}
+
+	form.forminator-custom-form.forminator-design--default .forminator-label,
+	form.forminator-custom-form.forminator-design--default .forminator-label--helper,
+	form.forminator-custom-form.forminator-design--default .forminator-label--limit {
+		line-height: 18px;
+	}
+
+	.forminator-custom-form.forminator-design--default .forminator-input {
+		height: 40px !important;
+	}
+	.forminator-custom-form .forminator-label--error,
+	.forminator-custom-form .forminator-label--error p,
+	.forminator-custom-form .forminator-label--notice,
+	.forminator-custom-form .forminator-label--notice p,
+	.forminator-custom-form .forminator-label--success,
+	.forminator-custom-form .forminator-label--success p {
+		font-size: 15px !important;
+		line-height: 18px !important;
+	}
+
+	.forminator-button {
+		font-size: 16px !important;
+		padding: 18px !important;
+
+	}
+
+}
 
 
