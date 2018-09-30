@@ -540,6 +540,7 @@ and (max-width : 640px) {
 
 	.intro-blurb {
 		padding: 40% 0;
+		z-index: -1;
 	}
 
 	.audience {

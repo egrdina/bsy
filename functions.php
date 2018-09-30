@@ -231,15 +231,15 @@ function bsy_customize_register($wp_customize) {
 
 }
 
-    function wpdocs_bsy_scripts() {
-        wp_enqueue_style( 'bsy-style', get_stylesheet_uri() );
-    }
-    add_action( 'wp_enqueue_scripts', 'wpdocs_bsy_scripts' );
-    
+function wpdocs_bsy_scripts() {
+    wp_enqueue_style( 'bsy-styles', get_stylesheet_directory_uri() . '/style.css', array(), filemtime( get_stylesheet_directory() . '/style.css' ) );
+}
+add_action( 'wp_enqueue_scripts', 'wpdocs_bsy_scripts' );
 
-    add_action('customize_register', 'bsy_customize_register');
 
-    function my_password_form() {
+add_action('customize_register', 'bsy_customize_register');
+
+function my_password_form() {
     global $post;
     $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
     $o = '<form class="password-form" action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">
