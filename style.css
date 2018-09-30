@@ -280,7 +280,136 @@ i {
 .form {
 	background-color: #fff;
 	border: 25px solid #FCE930;
-	padding-top: 6%;
+	padding: 6%;
+        font-family: karla, sans-serif;
+}
+.form h2 {
+        font-size: 32px;
+}
+.form form {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        text-align: left;
+}
+form.forminator-custom-form.forminator-design--default .forminator-input,
+form.forminator-custom-form.forminator-design--default .forminator-textarea {
+        border-radius: 4px;
+        border-color: #ccc;
+}
+form.forminator-design--default .forminator-input,
+form.forminator-design--default .forminator-textarea,
+form.forminator-design--default .forminator-label--validation {
+        background-color: #fff !important;
+}
+form.forminator-design--default .forminator-label {
+	color: #333 !important;
+}
+form.forminator-design--default .forminator-label,
+form.forminator-design--default .forminator-label--limit,
+form.forminator-design--default .forminator-label--helper,
+form.forminator-design--default .forminator-label--validation {
+	font-size: 18px !important;
+}
+form.forminator-custom-form.forminator-design--default .forminator-label,
+form.forminator-custom-form.forminator-design--default .forminator-label--helper,
+form.forminator-custom-form.forminator-design--default .forminator-label--limit {
+	line-height: 24px;
+}
+.forminator-field--label {
+	padding-bottom: 6px;
+}
+.forminator-custom-form.forminator-design--default .forminator-input {
+	height: 60px !important;
+}
+.forminator-design--default .forminator-radio .forminator-radio--design,
+.forminator-design--default .forminator-checkbox .forminator-checkbox--design {
+	background-color: #fff !important;
+}
+.forminator-button {
+	width: 100% !important;
+	background-color: #FF4200 !important;
+	font-weight: bold !important;
+	padding: 20px !important;
+	border-radius: 4px !important;
+	font-size: 18px !important;
+}
+.forminator-design--default .forminator-label--validation {
+	color: #FF4200 !important;
+}
+.forminator-design--default .forminator-is_hover .forminator-input,
+.forminator-design--default .forminator-is_hover .forminator-textarea,
+.forminator-design--default .forminator-is_active .forminator-input,
+.forminator-design--default .forminator-is_active .forminator-textarea {
+	border-color: #1d5bde !important;
+}
+.forminator-design--default .forminator-radio input:checked + .forminator-radio--design,
+.forminator-design--default .forminator-checkbox input:checked + .forminator-checkbox--design {
+	border-color: #1d5bde !important;
+}
+.forminator-design--default .forminator-radio .forminator-radio--design:before {
+	background-color: #1d5bde !important;
+}
+.forminator-custom-form .forminator-label--success {
+	background-color: #7ed0df !important;
+}
+.forminator-custom-form .forminator-label--error {
+	background-color: #e2926e !important;
+}
+.forminator-custom-form .forminator-label--notice {
+	background-color: #fae561 !important;
+}
+.forminator-custom-form .forminator-label--success:before {
+	display: none !important;
+}
+.forminator-custom-form .forminator-label--error,
+.forminator-custom-form .forminator-label--error p,
+.forminator-custom-form .forminator-label--notice,
+.forminator-custom-form .forminator-label--notice p,
+.forminator-custom-form .forminator-label--success,
+.forminator-custom-form .forminator-label--success p {
+	font-size: 18px !important;
+	line-height: 24px !important;
+	font-family: inherit !important;
+	font-weight: bold !important;
+	letter-spacing: 0 !important;
+}
+.forminator-cform-response-message {
+    display: block !important;
+    opacity: 1 !important;
+}
+.forminator-custom-form .forminator-label--success>div,
+.forminator-custom-form .forminator-label--success>span {
+    padding-left: 0 !important;
+}
+@media only screen and (max-width: 640px) and (min-width: 0px) {
+.form h2 {
+        font-size: 22px;
+}
+form.forminator-design--default .forminator-label,
+form.forminator-design--default .forminator-label--limit,
+form.forminator-design--default .forminator-label--helper,
+form.forminator-design--default .forminator-label--validation {
+	font-size: 15px !important;
+}
+form.forminator-custom-form.forminator-design--default .forminator-label,
+form.forminator-custom-form.forminator-design--default .forminator-label--helper,
+form.forminator-custom-form.forminator-design--default .forminator-label--limit {
+	line-height: 18px;
+}
+.forminator-custom-form.forminator-design--default .forminator-input {
+	height: 40px !important;
+}
+.forminator-custom-form .forminator-label--error,
+.forminator-custom-form .forminator-label--error p,
+.forminator-custom-form .forminator-label--notice,
+.forminator-custom-form .forminator-label--notice p,
+.forminator-custom-form .forminator-label--success,
+.forminator-custom-form .forminator-label--success p {
+	font-size: 15px !important;
+	line-height: 18px !important;
+}
+
 }
 
 .pair {
@@ -347,51 +476,51 @@ i {
 and (min-width : 641px) 
 and (max-width : 1024px) {
 
-.wave img {
-		max-width: 300px;
+	.wave img {
+			max-width: 300px;
+		}
+
+	.pair img {
+		max-width: 200px;
 	}
 
-.pair img {
-	max-width: 200px;
-}
+	.bsy-teal img {
+		width: 100px;
+	}
 
-.bsy-teal img {
-	width: 100px;
-}
+	.bsy-blue {
+		display: none;
+	}
 
-.bsy-blue {
-	display: none;
-}
+	.bsy-blue-mobile {
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 11%;
+		z-index: -1;
+	}
 
-.bsy-blue-mobile {
-	display: block;
-	position: absolute;
-	left: 0;
-	bottom: 11%;
-	z-index: -1;
-}
+	.bsy-blue-mobile img {
+		width: 100px;
+	}
 
-.bsy-blue-mobile img {
-	width: 100px;
-}
+	.bsy-orange {
+		display: none;
+	}
 
-.bsy-orange {
-	display: none;
-}
+	.bsy-orange-mobile {
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: 12%;
+		z-index: -1;
+	}
 
-.bsy-orange-mobile {
-	display: block;
-	position: absolute;
-	right: 0;
-	bottom: 12%;
-	z-index: -1;
-}
+	.bsy-orange-mobile img {
+		width: 120px;
+	}
 
-.bsy-orange-mobile img {
-	width: 120px;
-}
-
-}
+	}
 
 @media only screen
 and (min-width : 0px) 
