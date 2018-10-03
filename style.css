@@ -279,13 +279,16 @@ i {
 
 .form {
 	background-color: #fff;
+	color: #E1251B;
 	border: 25px solid #FCE930;
 	padding: 6%;
-        font-family: karla, sans-serif;
+    font-family: karla, sans-serif;
 }
+
 .form h2 {
         font-size: 32px;
 }
+
 .form form {
         margin: 0 auto;
         width: 100%;
@@ -303,7 +306,7 @@ form.forminator-design--default .forminator-label--validation {
         background-color: #fff !important;
 }
 form.forminator-design--default .forminator-label {
-	color: #333 !important;
+	color: #E1251B !important;
 }
 form.forminator-design--default .forminator-label,
 form.forminator-design--default .forminator-label--limit,
@@ -326,6 +329,12 @@ form.forminator-custom-form.forminator-design--default .forminator-label--limit 
 .forminator-design--default .forminator-checkbox .forminator-checkbox--design {
 	background-color: #fff !important;
 }
+
+.forminator-custom-form-52.forminator-design--default .forminator-radio .forminator-radio--label,
+	.forminator-custom-form-52.forminator-design--default .forminator-checkbox .forminator-checkbox--label {
+	color: #E1251B !important;
+}
+
 .forminator-button {
 	width: 100% !important;
 	background-color: #FF4200 !important;
@@ -374,6 +383,7 @@ form.forminator-custom-form.forminator-design--default .forminator-label--limit 
 	font-weight: bold !important;
 	letter-spacing: 0 !important;
 }
+
 .forminator-cform-response-message {
     display: block !important;
     opacity: 1 !important;
