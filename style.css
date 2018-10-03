@@ -4,7 +4,7 @@
  Description:  bsy Theme
  Author:       Emma Grdina
  Author URI:   http://emmagrdina.com
- Version:      2.0.0
+ Version:      2.0.1
 */
 
 h1 {
@@ -671,6 +671,10 @@ and (max-width : 640px) {
 
 	.form h2 {
 	    font-size: 22px;
+	}
+
+	.welcome {
+		z-index: 0;
 	}
 
 	form.forminator-design--default .forminator-label,
