@@ -330,8 +330,8 @@ form.forminator-custom-form.forminator-design--default .forminator-label--limit 
 	background-color: #fff !important;
 }
 
-.forminator-custom-form-52.forminator-design--default .forminator-radio .forminator-radio--label,
-	.forminator-custom-form-52.forminator-design--default .forminator-checkbox .forminator-checkbox--label {
+.forminator-design--default .forminator-radio .forminator-radio--label,
+.forminator-design--default .forminator-checkbox .forminator-checkbox--label {
 	color: #E1251B !important;
 }
 
