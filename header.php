@@ -6,6 +6,7 @@
 	charset=<?php bloginfo( 'charset' ); ?>">
     <?php wp_head(); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="_7IXC7GRNi1iMWVqLBgeemZqptJEmmDK9rAjd4YEHM8" />
 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla:400,700|Lora:400,700">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"'>
